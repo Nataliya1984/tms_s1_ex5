@@ -1,0 +1,513 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+}
+
+body {
+   
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #48555B;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-image: url(./img/bg\ \(2\).jpg);
+    background-repeat: round;
+}
+
+.header_logo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.heder_title {
+    text-align: center;
+}
+
+.heder_title {
+    text-align: center;
+    padding-top: 315px;
+    padding-bottom: 220px;
+}
+
+.header_title-text {
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.709374904632568px;
+    color: white;
+}
+
+.header_subtitle-text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+}
+
+.header_scroll {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.header_scroll a {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 3.700000047683716px;
+}
+
+.nav_logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6
+   
+}
+
+.nav_menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+ul.nav_list li {
+    display: inline;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.09px;
+    color: #48555B;
+}
+
+.our-story {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 57px;
+    position: relative;
+}
+
+.our-story_name {
+    position: relative;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.our-story_title {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.3062498569488525px;
+    color: #48555B;
+    padding-bottom: 10px;
+}
+
+.seporator::after{
+    width: 50px;
+    height: 2px;
+}
+
+.seporator-center::after {
+    content: '';
+    position: absolute;
+    background-color: #00A4E5;
+    left: calc(50% - 25px);
+}
+
+.our-story_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.our-story_title-text {
+    font-size: 20px;
+    letter-spacing: 0.1875px;
+    line-height: 27px;
+   color: #48555B;
+}
+
+.our-story_content {
+  
+    width: 50%;
+}
+
+span {
+    color: #00A4E5;
+}
+
+.subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.our-story_subtitle-text {
+    color: #48555B;
+    font-size: 13px;
+    padding-top: 30px;
+    line-height: 23px;
+}
+
+.our-story-img {
+    display: flex;
+    padding-top: 25px; 
+    width: 50%;
+    justify-content: space-between;
+}
+
+.our-story_img-plan {
+    background-image: url(./img/Bitmap\ \(3\).jpg);
+    width: 140px;
+}
+
+.our-story_img-manage {
+    background-image: url(./img/Bitmap\ \(4\).jpg);
+    width: 140px;
+}
+
+.our-story_img-build {
+    background-image: url(./img/Bitmap\ \(5\).jpg);
+    width: 140px;
+}
+
+.our-story_img {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.18750004470348358px;
+    text-align: left;
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.capabilities {
+   
+    display: flex;
+    padding: 120px 250px 78px 250px;
+    justify-content: space-between;
+    
+}
+
+.seporator-left::after {
+    content: '';
+    position: absolute;
+    background-color: #00A4E5;
+}
+
+.capabilities_text {    
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B
+}
+
+.capabilities_button {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    text-align: center;
+}
+
+
+.capabilities_button a {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.card {
+    padding-right: 250px;
+    padding-left: 250px;
+    width: 100%; 
+}
+
+.card_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_title-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #48555B;
+}
+
+.card_title {
+    padding-top: 25px;
+    padding-bottom: 13px;
+}
+
+.card_subtitle {  
+font-size: 13px;
+line-height: 23px;
+letter-spacing: 0.18px;
+color: #48555B;
+}
+
+.card_container {
+    border: 1px solid #E6E6E6;
+    padding:38px 23px 38px 23px;
+}
+
+.card_wrapper {
+    padding-bottom: 115px;
+}
+
+.background-color {
+    background-image: url(./img/bg\ \(3\).jpg);
+}
+
+.background_title-text {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 35px;  
+}
+
+.btn {
+    margin-left: calc(50% - 75px);
+}
+
+.backgroun_content {
+    padding-bottom: 231px;
+}
+
+label {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.84px;
+    color: white;
+    padding-right: 70px;
+}
+
+.container {
+    background-color: #171819;
+}
+
+.subscription_input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #979797
+}
+
+.subscription_input {
+    margin-right: -5px;
+}
+
+.subscription_button {
+    width: 150px;
+    height: 40px;
+    background: #00A4E5
+}
+
+.subscription {
+    width: 100%;  
+}
+
+.subscription_input {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+    outline: none;
+    padding-left: 15px;
+}
+
+.subscription_registration {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.subscription_button {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: white;
+}
+
+.center {
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #141A20;
+    
+}
+
+.center_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-company_title {  
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.84px;
+    color: white;
+}
+
+.about-company {
+    padding-top: 42px;
+    padding-bottom: 50px;
+}
+
+.contact_us {
+    padding-top: 42px;
+    padding-bottom: 15px;
+}
+
+.company_title {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.84px;
+    color: white;
+}
+
+.about-company_text { 
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.about_logo {
+    padding-bottom: 16px;
+    padding-top: 19px;
+}
+
+ul li {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.84px;
+    color: white;
+
+}
+
+.links_text {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.84px;
+    color: white;
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
+
+.links_faq {
+    padding-top: 67px;
+}
+
+.links_blog {
+    padding-top: 67px;
+}
+
+.contact_text {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+    color: white;
+
+}
+
+.container_social {
+    display: flex;
+    padding-top: 72px;
+}
+
+.contact_text-tel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social_twitter {
+    margin-left: 24px;
+    margin-right: 24px;
+    filter: sepia(100%);
+}
+
+.social_facebook,
+.social_googl {
+    filter: sepia(100%);
+}
+
+.footer_bottom {
+     background-color: #171819;
+     text-align: center;
+}
+
+.bottom {
+     padding-top: 22px;
+     padding-bottom: 22px;
+}
+
+.bottom_text {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.84px;
+    color: white;
+}
